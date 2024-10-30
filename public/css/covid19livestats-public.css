@@ -1,0 +1,143 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+.cod-widget-wrap {
+  background-color: #f7f7f7;
+  border: 1px solid #f9f9f9;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.cod-widget-wrap h3 {
+  font-size: 1.1em;
+  margin: 5px 5px;
+  padding: 15px 5px;
+  text-align: center;
+}
+
+.cod-widget-wrap h4 {
+  font-size: 0.8em;
+  margin-top: -5px;
+  padding: 0px 5px 15px;
+  text-align: center;
+}
+
+.cod-block-title {
+  text-align: center;
+  padding: 15px;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.text-confirmed {
+  color: #AC77F9;
+}
+
+.text-recovered {
+  color: #61CE81;
+}
+
+.text-critical {
+  color: #FFC928;
+
+}
+.text-deaths {
+  color: #FF416C;
+}
+
+.cod-widget-stat-box {
+  float: left;
+  width: 100%;
+  color: #000;
+  background-color: #f7f7f7;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.cod-widget-stat-box p {
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 15px 5px 0px 5px;
+  margin: 0;
+  line-height: 1.1em;
+}
+
+.box-confirmed {
+  border: 1px solid #AC77F9;
+  color: #AC77F9;
+}
+.box-confirmed p {
+  color: #AC77F9;
+}
+.box-recovered {
+  color: #61CE81;
+  border: 1px solid #61CE81;
+}
+.box-recovered {
+  color: #61CE81;
+}
+.box-critical {
+  color: #FFC928;
+  border: 1px solid #FFC928;
+}
+.box-critical {
+  color: #FFC928;
+}
+.box-deaths {
+  color: #FF416C;
+  border: 1px solid #FF416C;
+}
+.box-deaths {
+  color: #FF416C;
+}
+
+.text-legend {
+  display: block;
+  color: #000;
+  font-size: .6em;
+  font-weight: 400;
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+
+table.cod-widget-table {
+  font-size: 0.9em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+table.cod-widget-table tbody tr {
+  border: none !important;
+}
+
+table.cod-widget-table thead th, table.cod-widget-table tbody td {
+  border: 1px solid #1E1E2C !important;
+}
+
+#myTableSearchBox {
+  font-size: 0.8em;
+  padding: 15px;
+  margin: 15px 5px;
+  width: 96%;
+  border: 1px solid #eee !important;
+  border-radius: 15px;
+}
+
+.flags {
+  float: left;
+  width: 24px;
+  padding-right: 10px;
+}
+
+.chartdiv {
+  width: 100%;
+  height: 57vh;
+}
